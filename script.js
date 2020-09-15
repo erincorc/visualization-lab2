@@ -13,7 +13,7 @@ fetch("attractions.json")
       return 0;
     });
     let short = attractions.slice(0,5);
-    console.log(short);
+    //console.log(short);
     renderBarChart(short);
   });
 
